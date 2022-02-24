@@ -27,7 +27,7 @@ let setFruits = {
 
 // 让水果更 Q 弹：false 改为大于 0 小于 1 的任意小数（推荐 0.9）
 //let fruitQTan = false;
-let fruitQTan = 0.6;
+let fruitQTan = 0.5;
 
 // 让水果下落缓慢：false 改为大于 0 的任意数，值越大阻力越大，下落越慢（推荐 5）
 let fruitSlowDown = false;
@@ -39,7 +39,7 @@ let clickChangeFruit = true;
 //let adLink = 'https://636f-codenav-8grj8px727565176-1256524210.tcb.qcloud.la/yupi_wechat.png';
 
 // 修改网页标题：将 "合成大西瓜" 进行替换
-document.getElementsByTagName("title")[0].innerText = '손진욱을 잡아라! 아이돌 수박게임';
+document.getElementsByTagName("title")[0].innerText = '이디야 딸기라떼색 손진욱을 잡아라! 아이돌 수박게임';
 
 // 开启选分弹窗：将 false 改为 true
 let selectModal = false;
